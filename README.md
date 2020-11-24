@@ -26,11 +26,32 @@
     
 **Pandas Operations**
 
-  - Column Manipulation
+      - Column Manipulation
+  
       - Read data from web using pandas_datareader.data
       - Create New columns and operating on columns
       - Applying Logical operation on Column and Dataframe
       - Statistical Function on dataframe
       - Moving or rolling statistics
       - Rolling Apply - we can write our own function and apply rolling
+      
+**Handling Missing Data or Outliers**
+
+      - In real world when you collect data there will be missing datas
+      - Q1. How do we handle missing data
+      - Q2. How do we detect Erroneous data
+      - Q3. How we differentiate between Erroneous data and Outliers
+      - If you are 100% sure the data is an outlier, can delete, else dont delete
+      - dropna() - how ="all"
+      
+      - 3 Major choice of filling data
+      - 1:Fill in with as Static number, 2:Fill forward, Backward 3:Totally get rid of rows
+      - We can limit the number of fills to 1%
+      
+      - detecting Outliers
+      - describe the data and get the standard deviation
+      - If we have high standard deviation, it can be due to some outliers
+      - create the rolling standard deviation for the column
+      - filter out the rows with standard deviation > 50 (some threshold)
+      - You should remove outlier if you are 100% certain that it is an outlier
       
