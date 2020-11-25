@@ -55,3 +55,9 @@
       - filter out the rows with standard deviation > 50 (some threshold)
       - You should remove outlier if you are 100% certain that it is an outlier
       
+***Combining DataFrames***
+
+      - Concatenation 
+      - Appending
+      - Merging  (On a shared column)
+      - Join (on index)
