@@ -69,3 +69,7 @@
        - Sorting by Multiple rules
        - Resampling - generally with time series
        - if we have data updated every millisecond, we can convert to every minute (take mean)
+       - ohlc resampling (open high low close)
+       - Correlation and Covariance
+       
+       
