@@ -55,9 +55,17 @@
       - filter out the rows with standard deviation > 50 (some threshold)
       - You should remove outlier if you are 100% certain that it is an outlier
       
-***Combining DataFrames***
+**Combining DataFrames**
 
       - Concatenation 
       - Appending
       - Merging  (On a shared column)
       - Join (on index)
+      
+**Advanced Operations**
+
+       - Read from quandl and create a pickle and save.
+       - Sort with respect to columns
+       - Sorting by Multiple rules
+       - Resampling - generally with time series
+       - if we have data updated every millisecond, we can convert to every minute (take mean)
