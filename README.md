@@ -77,4 +77,11 @@
        - Buffering is about sacrificing storage for ram.
        - Instead of reading the whole data at a strech, read in chunks
        
+**Working with Database**
+
+       - Push data to a sqlite3 database from a csv file using pandas
+       - Read from database to a dataframe  
+       - Resample the data
+     
+     
        
