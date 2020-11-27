@@ -71,5 +71,10 @@
        - if we have data updated every millisecond, we can convert to every minute (take mean)
        - ohlc resampling (open high low close)
        - Correlation and Covariance
+       - Mapping
+       - Buffering - without pandas and with pandas
+       - Buffering in and out hdf5
+       - Buffering is about sacrificing storage for ram.
+       - Instead of reading the whole data at a strech, read in chunks
        
        
